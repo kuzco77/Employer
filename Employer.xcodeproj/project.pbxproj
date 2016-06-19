@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		43601BAE1D13BB46000DCEAA /* NhanVien.m in Sources */ = {isa = PBXBuildFile; fileRef = 43601BAD1D13BB46000DCEAA /* NhanVien.m */; };
+		4367663E1D15298900067D09 /* QuanLy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4367663D1D15298900067D09 /* QuanLy.m */; };
+		436766441D1553D600067D09 /* PhongBan.m in Sources */ = {isa = PBXBuildFile; fileRef = 436766431D1553D600067D09 /* PhongBan.m */; };
 		439D737E1D130B9A0057430A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439D737D1D130B9A0057430A /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,10 @@
 /* Begin PBXFileReference section */
 		43601BAC1D13BB46000DCEAA /* NhanVien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NhanVien.h; sourceTree = "<group>"; };
 		43601BAD1D13BB46000DCEAA /* NhanVien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NhanVien.m; sourceTree = "<group>"; };
+		4367663C1D15298900067D09 /* QuanLy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanLy.h; sourceTree = "<group>"; };
+		4367663D1D15298900067D09 /* QuanLy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanLy.m; sourceTree = "<group>"; };
+		436766421D1553D600067D09 /* PhongBan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhongBan.h; sourceTree = "<group>"; };
+		436766431D1553D600067D09 /* PhongBan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhongBan.m; sourceTree = "<group>"; };
 		439D737A1D130B9A0057430A /* Employer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Employer; sourceTree = BUILT_PRODUCTS_DIR; };
 		439D737D1D130B9A0057430A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				439D737D1D130B9A0057430A /* main.m */,
+				436766421D1553D600067D09 /* PhongBan.h */,
+				436766431D1553D600067D09 /* PhongBan.m */,
+				4367663C1D15298900067D09 /* QuanLy.h */,
+				4367663D1D15298900067D09 /* QuanLy.m */,
 				43601BAC1D13BB46000DCEAA /* NhanVien.h */,
 				43601BAD1D13BB46000DCEAA /* NhanVien.m */,
 			);
@@ -125,6 +135,8 @@
 			files = (
 				43601BAE1D13BB46000DCEAA /* NhanVien.m in Sources */,
 				439D737E1D130B9A0057430A /* main.m in Sources */,
+				436766441D1553D600067D09 /* PhongBan.m in Sources */,
+				4367663E1D15298900067D09 /* QuanLy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
