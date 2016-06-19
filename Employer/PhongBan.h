@@ -18,5 +18,7 @@
 @property(nonatomic,readwrite) NSMutableArray* listNhanVien;
 
 - (id)initWithKey :(NSString*) pDiaChiPhongBan :(QuanLy*) qQuanLy :(NSMutableArray*) qListNhanVien;
+- (id)showEverybody;
+
 
 @end

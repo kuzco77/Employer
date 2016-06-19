@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         NhanVien *nhanVien2 = [[NhanVien alloc]init];
         NhanVien *nhanVien3 = [[NhanVien alloc]init];
         NhanVien *nhanVien4 = [[NhanVien alloc]init];
-        NhanVien *boss = [[QuanLy alloc]init];
+        QuanLy *boss = [[QuanLy alloc]init];
         NSMutableArray *listNhanVien = [[NSMutableArray alloc]init];
         
         [nhanVien1 initWithValue:@"Chu Nam Anh" :20 :@"Bac Ninh" :5 :@"student"];
@@ -31,12 +31,13 @@ int main(int argc, const char * argv[]) {
         [listNhanVien addObject:nhanVien3];
         [listNhanVien addObject:nhanVien4];
         
+        
         PhongBan* phongban1 = [[PhongBan alloc]initWithKey:@"401" :boss :listNhanVien ];
         
         [NhanVien soSanh:nhanVien1 :nhanVien2];
         NSLog(@"Luong tong cua nhan vien 3 va 4 : %ld",(long)[NhanVien congLuong:nhanVien3 :nhanVien4]);
         
-        
+        [phongban1 showEverybody];
         
         
     }
